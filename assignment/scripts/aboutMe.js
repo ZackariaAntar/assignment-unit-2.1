@@ -5,9 +5,9 @@ let firstName = 'Zackaria';
 let lastName = 'Antar';
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
-let fullName = (firstName+' '+lastName);
+let fullName = `${firstName} ${lastName}`;
 // 4 - Console log the value of `fullName`
-console.log(fullName)
+console.log(fullName);
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 let luckyNumber = 222;
 // 6 - Console log this sentence, adding in the variables you created above: 
@@ -28,9 +28,9 @@ pets += 2;
 const allowedPets = 10;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-if (adventurous) {
+if (adventurous){
     console.log('Adventures are great!')
-} else {
+} else{
     console.log('How about we stay home?')
 }
 
@@ -46,9 +46,9 @@ if (luckyNumber === 2 && adventurous === true){
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
-if (pets < allowedPets) {
+if (pets < allowedPets){
     console.log('I can have more pets!')    
-}else if(pets === allowedPets) {
+}else if(pets === allowedPets){
     console.log('I have enough pets.')
 }else if (pets > allowedPets){
     console.log('Oh no, I have too many pets!')
@@ -70,7 +70,7 @@ if (pets <= friendsPets){
     mostPets = pets
 } 
 
-console.log(`${mostPets} is the highest number of pets.`)
+console.log(`${mostPets} is the highest number of pets.`);
 
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
@@ -97,7 +97,7 @@ switch(luckyNumber1){
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
-let adventurous1 = true ? console.log('Adventures are great!') : console.log('How about we stay home?')
+let adventurous1 = true ? console.log('Adventures are great!') : console.log('How about we stay home?');
 
 
 
